@@ -1,4 +1,11 @@
-let arr = ["a", "b", "c"];
+let words = ["spray", "limit", "elite", "exuberant", "destruction", "present"];
 
-arr = arr.join("");
-console.log(arr);
+const filterWord = (my_word) => {
+  words = words.filter((word) => {
+    return word != my_word;
+  });
+
+  console.log(words);
+};
+
+filterWord("elite");
