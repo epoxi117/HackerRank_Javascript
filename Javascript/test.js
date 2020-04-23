@@ -1,11 +1,15 @@
-let words = ["spray", "limit", "elite", "exuberant", "destruction", "present"];
+let arr = [5, 4, 3, 1231, 23, -1, 211];
 
-const filterWord = (my_word) => {
-  words = words.filter((word) => {
-    return word != my_word;
-  });
+const findMin = () => {
+  let min = 0;
 
-  console.log(words);
+  for (let ii = 0; ii < arr.length; ii++) {
+    if (parseInt(arr[ii]) < parseInt(min)) {
+      min = arr[ii];
+    }
+  }
+
+  console.log(min);
 };
 
-filterWord("elite");
+findMin();
