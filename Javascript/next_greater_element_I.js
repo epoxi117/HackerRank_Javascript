@@ -5,7 +5,7 @@ The Next Greater Number of a number x in nums1 is the first greater number to it
 
 Example 1:
 Input: nums1 = [4,1,2], nums2 = [1,3,4,2].
-Output: [-1,3,-1]
+Output: [-1,4,-1]
 Explanation:
     For number 4 in the first array, you cannot find the next greater number for it in the second array, so output -1.
     For number 1 in the first array, the next greater number for it in the second array is 3.
@@ -35,8 +35,8 @@ var nextGreaterElement = function (nums1, nums2) {
         output.push(nums2[jj + ii + 1]);
         flag = true;
         break;
-      }figma
-      
+      }
+      figma;
     }
     if (!flag) {
       output.push(-1);
