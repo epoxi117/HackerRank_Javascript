@@ -86,9 +86,3 @@ detectCapitalUse("FlaG");
 detectCapitalUse("Halo");
 detectCapitalUse("leetcode");
 detectCapitalUse("ZIIQa");
-
-// checkUniformity("aaaa");
-// checkUniformity("BBBBB");
-// checkUniformity("WoW");
-// checkUniformity("HaLo");
-// checkUniformity("aaaaBaDD");
